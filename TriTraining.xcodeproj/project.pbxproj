@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FCEAAA27D3EBB600F7B7D2 /* TriTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCEAA927D3EBB600F7B7D2 /* TriTrainingApp.swift */; };
+		05FCEAAC27D3EBB600F7B7D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCEAAB27D3EBB600F7B7D2 /* ContentView.swift */; };
+		05FCEAAE27D3EBB700F7B7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FCEAAD27D3EBB700F7B7D2 /* Assets.xcassets */; };
+		05FCEAB127D3EBB700F7B7D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FCEAB027D3EBB700F7B7D2 /* Preview Assets.xcassets */; };
+		05FCEABB27D3EBB700F7B7D2 /* TriTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCEABA27D3EBB700F7B7D2 /* TriTrainingTests.swift */; };
+		05FCEAC527D3EBB700F7B7D2 /* TriTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCEAC427D3EBB700F7B7D2 /* TriTrainingUITests.swift */; };
+		05FCEAC727D3EBB700F7B7D2 /* TriTrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FCEAC627D3EBB700F7B7D2 /* TriTrainingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FCEAB727D3EBB700F7B7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FCEA9E27D3EBB600F7B7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FCEAA527D3EBB600F7B7D2;
+			remoteInfo = TriTraining;
+		};
+		05FCEAC127D3EBB700F7B7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05FCEA9E27D3EBB600F7B7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05FCEAA527D3EBB600F7B7D2;
+			remoteInfo = TriTraining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FCEAA627D3EBB600F7B7D2 /* TriTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FCEAA927D3EBB600F7B7D2 /* TriTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrainingApp.swift; sourceTree = "<group>"; };
+		05FCEAAB27D3EBB600F7B7D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05FCEAAD27D3EBB700F7B7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FCEAB027D3EBB700F7B7D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05FCEAB627D3EBB700F7B7D2 /* TriTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FCEABA27D3EBB700F7B7D2 /* TriTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrainingTests.swift; sourceTree = "<group>"; };
+		05FCEAC027D3EBB700F7B7D2 /* TriTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FCEAC427D3EBB700F7B7D2 /* TriTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrainingUITests.swift; sourceTree = "<group>"; };
+		05FCEAC627D3EBB700F7B7D2 /* TriTrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriTrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FCEAA327D3EBB600F7B7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEAB327D3EBB700F7B7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEABD27D3EBB700F7B7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FCEA9D27D3EBB600F7B7D2 = {
+			isa = PBXGroup;
+			children = (
+				05FCEAA827D3EBB600F7B7D2 /* TriTraining */,
+				05FCEAB927D3EBB700F7B7D2 /* TriTrainingTests */,
+				05FCEAC327D3EBB700F7B7D2 /* TriTrainingUITests */,
+				05FCEAA727D3EBB600F7B7D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FCEAA727D3EBB600F7B7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FCEAA627D3EBB600F7B7D2 /* TriTraining.app */,
+				05FCEAB627D3EBB700F7B7D2 /* TriTrainingTests.xctest */,
+				05FCEAC027D3EBB700F7B7D2 /* TriTrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FCEAA827D3EBB600F7B7D2 /* TriTraining */ = {
+			isa = PBXGroup;
+			children = (
+				05FCEAA927D3EBB600F7B7D2 /* TriTrainingApp.swift */,
+				05FCEAAB27D3EBB600F7B7D2 /* ContentView.swift */,
+				05FCEAAD27D3EBB700F7B7D2 /* Assets.xcassets */,
+				05FCEAAF27D3EBB700F7B7D2 /* Preview Content */,
+			);
+			path = TriTraining;
+			sourceTree = "<group>";
+		};
+		05FCEAAF27D3EBB700F7B7D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05FCEAB027D3EBB700F7B7D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05FCEAB927D3EBB700F7B7D2 /* TriTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				05FCEABA27D3EBB700F7B7D2 /* TriTrainingTests.swift */,
+			);
+			path = TriTrainingTests;
+			sourceTree = "<group>";
+		};
+		05FCEAC327D3EBB700F7B7D2 /* TriTrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05FCEAC427D3EBB700F7B7D2 /* TriTrainingUITests.swift */,
+				05FCEAC627D3EBB700F7B7D2 /* TriTrainingUITestsLaunchTests.swift */,
+			);
+			path = TriTrainingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FCEAA527D3EBB600F7B7D2 /* TriTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FCEACA27D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTraining" */;
+			buildPhases = (
+				05FCEAA227D3EBB600F7B7D2 /* Sources */,
+				05FCEAA327D3EBB600F7B7D2 /* Frameworks */,
+				05FCEAA427D3EBB600F7B7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriTraining;
+			productName = TriTraining;
+			productReference = 05FCEAA627D3EBB600F7B7D2 /* TriTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05FCEAB527D3EBB700F7B7D2 /* TriTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FCEACD27D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTrainingTests" */;
+			buildPhases = (
+				05FCEAB227D3EBB700F7B7D2 /* Sources */,
+				05FCEAB327D3EBB700F7B7D2 /* Frameworks */,
+				05FCEAB427D3EBB700F7B7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FCEAB827D3EBB700F7B7D2 /* PBXTargetDependency */,
+			);
+			name = TriTrainingTests;
+			productName = TriTrainingTests;
+			productReference = 05FCEAB627D3EBB700F7B7D2 /* TriTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05FCEABF27D3EBB700F7B7D2 /* TriTrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FCEAD027D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTrainingUITests" */;
+			buildPhases = (
+				05FCEABC27D3EBB700F7B7D2 /* Sources */,
+				05FCEABD27D3EBB700F7B7D2 /* Frameworks */,
+				05FCEABE27D3EBB700F7B7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05FCEAC227D3EBB700F7B7D2 /* PBXTargetDependency */,
+			);
+			name = TriTrainingUITests;
+			productName = TriTrainingUITests;
+			productReference = 05FCEAC027D3EBB700F7B7D2 /* TriTrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FCEA9E27D3EBB600F7B7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					05FCEAA527D3EBB600F7B7D2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					05FCEAB527D3EBB700F7B7D2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 05FCEAA527D3EBB600F7B7D2;
+					};
+					05FCEABF27D3EBB700F7B7D2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 05FCEAA527D3EBB600F7B7D2;
+					};
+				};
+			};
+			buildConfigurationList = 05FCEAA127D3EBB600F7B7D2 /* Build configuration list for PBXProject "TriTraining" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FCEA9D27D3EBB600F7B7D2;
+			productRefGroup = 05FCEAA727D3EBB600F7B7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FCEAA527D3EBB600F7B7D2 /* TriTraining */,
+				05FCEAB527D3EBB700F7B7D2 /* TriTrainingTests */,
+				05FCEABF27D3EBB700F7B7D2 /* TriTrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FCEAA427D3EBB600F7B7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FCEAB127D3EBB700F7B7D2 /* Preview Assets.xcassets in Resources */,
+				05FCEAAE27D3EBB700F7B7D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEAB427D3EBB700F7B7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEABE27D3EBB700F7B7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FCEAA227D3EBB600F7B7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FCEAAC27D3EBB600F7B7D2 /* ContentView.swift in Sources */,
+				05FCEAAA27D3EBB600F7B7D2 /* TriTrainingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEAB227D3EBB700F7B7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FCEABB27D3EBB700F7B7D2 /* TriTrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05FCEABC27D3EBB700F7B7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FCEAC727D3EBB700F7B7D2 /* TriTrainingUITestsLaunchTests.swift in Sources */,
+				05FCEAC527D3EBB700F7B7D2 /* TriTrainingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05FCEAB827D3EBB700F7B7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FCEAA527D3EBB600F7B7D2 /* TriTraining */;
+			targetProxy = 05FCEAB727D3EBB700F7B7D2 /* PBXContainerItemProxy */;
+		};
+		05FCEAC227D3EBB700F7B7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05FCEAA527D3EBB600F7B7D2 /* TriTraining */;
+			targetProxy = 05FCEAC127D3EBB700F7B7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FCEAC827D3EBB700F7B7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05FCEAC927D3EBB700F7B7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FCEACB27D3EBB700F7B7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FCEACC27D3EBB700F7B7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05FCEACE27D3EBB700F7B7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriTraining.app/TriTraining";
+			};
+			name = Debug;
+		};
+		05FCEACF27D3EBB700F7B7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriTraining.app/TriTraining";
+			};
+			name = Release;
+		};
+		05FCEAD127D3EBB700F7B7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriTraining;
+			};
+			name = Debug;
+		};
+		05FCEAD227D3EBB700F7B7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHJ764G3V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbreds33.TriTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriTraining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FCEAA127D3EBB600F7B7D2 /* Build configuration list for PBXProject "TriTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FCEAC827D3EBB700F7B7D2 /* Debug */,
+				05FCEAC927D3EBB700F7B7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FCEACA27D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FCEACB27D3EBB700F7B7D2 /* Debug */,
+				05FCEACC27D3EBB700F7B7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FCEACD27D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FCEACE27D3EBB700F7B7D2 /* Debug */,
+				05FCEACF27D3EBB700F7B7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FCEAD027D3EBB700F7B7D2 /* Build configuration list for PBXNativeTarget "TriTrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FCEAD127D3EBB700F7B7D2 /* Debug */,
+				05FCEAD227D3EBB700F7B7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FCEA9E27D3EBB600F7B7D2 /* Project object */;
+}
